@@ -23,7 +23,7 @@ server.on("request", (req, res) => {
   //     res.end("File not found");
   //   });
 
-  // Solution 3 ||ყველაზე პატარა და ძლიერი კოდი <3
+  // Solution 3 ||ყველაზე პატარა და ძლიერი კოდი <3 (pipe)
   const readable = fs.createReadStream("test-file.txt");
   readable.pipe(res);
 });
