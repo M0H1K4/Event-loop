@@ -30,7 +30,7 @@ TODO: var server = http.createServer();
 
 server.on("request", (req, res) => {
   console.log("Request recieved");
-  console.log(req.url)
+  console.log(req.url);
   res.end("Request recieved");
 });
 server.on("request", (req, res) => {
